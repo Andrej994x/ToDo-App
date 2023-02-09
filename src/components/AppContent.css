@@ -1,0 +1,59 @@
+.todo_wrapper {
+  align-items: center;
+}
+
+.single_todo {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.new_todos {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.checkbox {
+  padding: 5px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.name_todos {
+  color: #333;
+}
+
+.date_todo {
+  color: #c4c4c4;
+  font-size: 14px;
+}
+
+.new-todo {
+  display: flex;
+}
+
+.edit_todo {
+  margin-left: 10px;
+  color: #d3d3d3;
+}
+
+.edit_todo:hover {
+  color: #a5a5a5;
+}
+
+.icons_delete_edit {
+  display: flex;
+}
+
+.delete_todo {
+  margin-left: 5px;
+  color: rgb(255, 174, 174);
+}
+
+.delete_todo:hover {
+  color: rgb(255, 144, 144);
+}
